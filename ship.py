@@ -9,7 +9,7 @@ class Ship:
 		self.screen_rect = ai_game.screen.get_rect()
 
 		# Load the ship image and get its rect
-		self.image = pygame.image.load('images/spaceship.bmp')
+		self.image = pygame.image.load('space_invasion/images/spaceship.bmp')
 		self.image = pygame.transform.smoothscale(self.image, (44, 47))
 		self.rect = self.image.get_rect()
 
